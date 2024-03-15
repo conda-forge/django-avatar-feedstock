@@ -3,9 +3,9 @@ About django-avatar-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/django-avatar-feedstock/blob/main/LICENSE.txt)
 
-Home: http://github.com/grantmcconnaughey/django-avatar/
+Home: https://github.com/jazzband/django-avatar
 
-Package license: BSD-3-Clause
+Package license: BSD-3-Clause AND BSD-4-Clause
 
 Summary: A Django app for handling user avatars
 
@@ -144,4 +144,5 @@ Feedstock Maintainers
 =====================
 
 * [@mxr-conda](https://github.com/mxr-conda/)
+* [@rxm7706](https://github.com/rxm7706/)
 
