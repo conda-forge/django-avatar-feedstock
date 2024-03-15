@@ -22,26 +22,30 @@ requirements:
     - pip
   run:
     - python >=3.8
-    - django >=3.2,<5.0
+    - django >=3.2
     - pillow >=10.0.1
-    - django-appconf
+    - django-appconf >=1.0.5
     - dnspython >=2.3.0
 
 test:
   imports:
     - avatar
-    - avatar.management
   commands:
     - pip check
   requires:
     - pip
 
 about:
-  home: http://github.com/grantmcconnaughey/django-avatar/
   summary: A Django app for handling user avatars
-  license: BSD-3-Clause
-  license_file: LICENSE.txt
+  home: https://github.com/jazzband/django-avatar
+  license: BSD-3-Clause AND BSD-4-Clause
+  license_file:
+    - LICENSE.txt
+    - avatar/templates/notification/avatar_updated/notice.html
+    - avatar/templates/notification/avatar_friend_updated/notice.html
 
 extra:
   recipe-maintainers:
+    - rxm7706
     - mxr-conda
+
