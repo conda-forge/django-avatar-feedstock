@@ -1,13 +1,13 @@
 {% set name = "django-avatar" %}
-{% set version = "8.0.0" %}
+{% set version = "8.0.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/django-avatar-{{ version }}.tar.gz
-  sha256: 9e5fdea5c8b5749abc1e4d09ed2bba9ff43d8654b24fa277303097f808f027c3
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: 2c4550489be08e9e5fe47b6c82afaba111a9c20d83957d5b660c63ea3b0eb5f2
 
 build:
   noarch: python
